@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Change for Kids",
+  "version": "1.0",
+
+  "description": "Change.org's issues aren't that important",
+
+  "icons": {
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.change.org/*"],
+      "js": ["scripts/jquery.min.js","scripts/main.js"]
+    }
+  ]
+
+}
